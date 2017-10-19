@@ -1,6 +1,6 @@
 # Sass Simple Starter
 
-A simple package for compiling Sass, concatenate & minify JS, image optimization and running a dev server
+A simple package for compiling Sass, concatenate & minify JS, and image optimization that then copies all to a 'dist' directory that spins up a local dev server.
 
 ### Version
 1.0.0
@@ -18,7 +18,7 @@ $ npm install
 
 ### Run
 
-This will watch your sass files, compile them and run your dev server at http://localhost:3000
+This will watch your sass, js, and img files. It then creates a new 'dist' directory for production and a dev server at http://localhost:3000
 
 ```sh
 $ npm start
