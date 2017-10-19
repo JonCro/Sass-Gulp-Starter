@@ -21,5 +21,5 @@ $ npm install
 This will watch your sass, js, and img files. It then creates a new 'dist' directory for production and a dev server at http://localhost:3000
 
 ```sh
-$ npm start
+$ gulp
 ```
