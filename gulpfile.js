@@ -73,5 +73,5 @@ gulp.task('serve', ['sass'], () => {
     gulp.watch(['src/assets/img/*'], ['compress-images']);
 });
 
-// Run Project Lingo Task
+// Run Gulp Task 
 gulp.task('default', ['serve', 'moveHtml']);
