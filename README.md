@@ -1,6 +1,6 @@
 # Sass Gulp Starter
 
-A simple starter package for compiling Sass, concatenate & minify JS, and image optimization that then copies all to a 'dist' directory that spins up a local dev server.
+A simple starter package for compiling Sass, concatenate & minify JS, and image optimization that then copies all to a 'dist' directory that spins up a local dev server. Includes Reboot.css
 
 ### Version
 1.0.0
