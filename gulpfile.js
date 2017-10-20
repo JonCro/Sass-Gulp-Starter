@@ -44,15 +44,15 @@ gulp.task('compress-images', () => {
 // Move HTML files to dist
 gulp.task('moveHtml', () => {
     gulp.src('src/*.html')
-    .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('dist'));
 });
 
 // Concat vendor css
 gulp.task('concatVendor', () => {
     gulp.src('src/assets/scss/vendors/*.scss')
-    .pipe(sass())
-    .pipe(concat('vendors.css'))
-    .pipe(gulp.dest('dist/assets/css/vendors'));
+        .pipe(sass())
+        .pipe(concat('vendors.css'))
+        .pipe(gulp.dest('dist/assets/css/vendors'));
 })
 
 gulp.task('serve', ['sass'], () => {
